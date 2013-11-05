@@ -135,6 +135,14 @@ can be downloaded by the build pack (see the URIs in `compile`).
     tar -zcf php-"$php_version""$heroku_rev".tar.gz php
     popd
 
+
+Deploying
+-------
+To use this buildpack, on an existing app:
+
+    heroku config:add BUILDPACK_URL=git://github.com/iphoting/heroku-buildpack-php-tyler.git
+
+
 Hacking
 -------
 
