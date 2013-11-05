@@ -140,7 +140,7 @@ Deploying
 -------
 To use this buildpack, on an existing app:
 
-    heroku config:add BUILDPACK_URL=git://github.com/iphoting/heroku-buildpack-php-tyler.git
+    heroku config:add BUILDPACK_URL=git://github.com/JaredHalpern/heroku-buildpack-php.git
 
 
 Hacking
